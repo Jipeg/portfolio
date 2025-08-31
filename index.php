@@ -60,7 +60,7 @@ while ($data = $result->fetchArray(SQLITE3_ASSOC)) {
     <div class="bg-white shadow rounded-lg p-5">
       <h2 class="text-xl font-semibold mb-2"><?= $project['name'] ?></h2>
       <p class="text-gray-600 mb-3"><?= $project['desc'] ?></p>
-      <a href="<?= $project['link'] ?>" target="_blank" class="text-blue-500 hover:underline">Visit <?= $project['link'] ?></a>
+      <a href="<?= $project['link'] ?>" target="_blank" class="text-blue-500 hover:underline"><?= $project['link'] ?></a>
     </div>
   <?php } ?>
 </div>
