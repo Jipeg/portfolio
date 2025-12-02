@@ -11,6 +11,9 @@
   <a href="/" class="text-blue-500 hover:underline absolute">Назад</a>
 <?php } ?>
 <h1 class="text-3xl font-bold m-auto w-24 mb-3 mt-5">Категории</h1>
+<div class="absolute top-0 right-0">
+  <a href="/admin" class="text-red-500 hover:underline">Админка</a>
+</div>
 <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-3">
   <?php foreach($categories as $category) { ?>
     <div class="bg-white shadow rounded-lg p-2">
